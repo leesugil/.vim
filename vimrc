@@ -6,15 +6,7 @@ set backspace=indent,eol,start
 set cindent
 set tabstop=4
 set shiftwidth=4 smarttab
-set clipboard=unnamedplus
 set formatoptions=r,o
-
-noremap y "*y
-noremap yy "*yy
-noremap Y "*y$
-noremap x "*x
-noremap dd "*dd
-noremap D "*D
 
 autocmd VimLeavePre * normal! ma | wviminfo!
 autocmd VimEnter * normal! `a
