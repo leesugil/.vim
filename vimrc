@@ -30,6 +30,3 @@ inoremap <Down> <C-o>gj
 
 " Define an autocmd to load the template (:help skeleton)
 autocmd BufNewFile *.c 0r ~/.vim/templates/template.c
-
-" Define an autocmd to footprint date/time to document
-autocmd BufWritePre * execute '%s/(vimputdatehere)/' . strftime("%Y-%m-%d") . '/g'
