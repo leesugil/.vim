@@ -1,6 +1,6 @@
 /* C template
  * Author: Sugil Steve Lee
- * Last Updated: 12/30/2023 */
+ * Last Updated: 2023-12-30 */
 
 #include <stdio.h>
 #include <sys/time.h>

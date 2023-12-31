@@ -16,8 +16,9 @@ noremap x "*x
 noremap dd "*dd
 noremap D "*D
 
-autocmd VimLeavePre * normal! ma | wviminfo!
-autocmd VimEnter * normal! `a
+" Define an autocmd to remember the last cursor location before closing
+autocmd VimLeavePre * normal! mz | wviminfo!
+autocmd VimEnter * normal! `z
 
 noremap <Up> gk
 noremap <Down> gj
@@ -30,3 +31,5 @@ inoremap <Down> <C-o>gj
 " Define an autocmd to load the template (:help skeleton)
 autocmd BufNewFile *.c 0r ~/.vim/templates/template.c
 
+" Define an autocmd to footprint date/time to document
+autocmd BufWritePre * execute '%s/(vimputdatehere)/' . strftime("%Y-%m-%d") . '/g'
