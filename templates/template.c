@@ -1,6 +1,6 @@
 /* C template
  * Author: Sugil Steve Lee
- * Last Updated: 12/21/2023
+ * Last Updated: 12/30/2023
  * */
 
 #include <stdio.h>
