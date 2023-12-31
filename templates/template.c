@@ -6,8 +6,8 @@
 #include <sys/time.h>
 #include <time.h>
 
-void time_measure_start();
-void time_measure_end();
+void time_measure_start(void);
+void time_measure_end(void);
 
 int main(int argc, char *argv[])
 {
@@ -51,7 +51,7 @@ double elapsed_time;
 clock_t start_cpu, end_cpu;
 double cpu_time_used;
 
-void time_measure_start()
+void time_measure_start(void)
 {
 	/* wall-clock time */
 	extern struct timeval start_wall, end_wall;
@@ -66,7 +66,7 @@ void time_measure_start()
 	start_cpu = clock();
 }
 
-void time_measure_end()
+void time_measure_end(void)
 {
 	/* collect cpu time */
 	end_cpu = clock();
