@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	clock_t start_cpu, end_cpu;
 	double cpu_time_used;
 
-	start = clock();
+	start_cpu = clock();
 
 	/* actual code
 	 * start here */
