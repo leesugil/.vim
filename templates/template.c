@@ -9,11 +9,11 @@
 void time_measure_start(void);
 void time_measure_end(void);
 
+
+
 int main(int argc, char *argv[])
 {
-	/* code speed measurement */
-	time_measure_start();
-
+	time_measure_start();	/* code speed measurement */
 	/* actual code
 	 * start here */
 
@@ -25,16 +25,9 @@ int main(int argc, char *argv[])
 
 
 
-
-
-
-
 	/* end of
 	 * actual code */
-
-	/* collect cpu time */
-	time_measure_end();
-
+	time_measure_end();	/* collect time */
 	return 0;
 }
 
@@ -45,6 +38,19 @@ int main(int argc, char *argv[])
 
 
 
+
+
+
+
+
+
+
+
+
+
+/* THE CODE BELOW IS
+ * RESERVED FOR
+ * PERFORMANCE MEASURE */
 
 struct timeval start_wall, end_wall;
 double elapsed_time;
