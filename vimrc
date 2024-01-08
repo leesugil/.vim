@@ -8,6 +8,9 @@ set tabstop=4
 set shiftwidth=4 smarttab
 set clipboard=unnamedplus
 set formatoptions=r,o
+set wrap
+set linebreak
+set textwidth=0
 
 noremap y "*y
 noremap yy "*yy
