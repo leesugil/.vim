@@ -31,5 +31,13 @@ noremap k gk
 inoremap <Up> <C-o>gk
 inoremap <Down> <C-o>gj
 
-" Define an autocmd to load the template (:help skeleton)
-autocmd BufNewFile *.c 0r ~/.vim/templates/template.c
+augroup CFileCreation
+	autocmd!
+	autocmd BufNewFile *.c if !filereadable("template_clock.c") | execute 'call CreateTemClockFile()' | endif
+	" Define an autocmd to load the template (:help skeleton)
+	autocmd BufNewFile *.c 0r ~/.vim/templates/template.c
+augroup END
+
+function CreateTemClockFile()
+	execute 'silent !cp ~/.vim/templates/template_clock.c ./template_clock.c'
+endfunction
