@@ -1,6 +1,6 @@
 /* C template
  * Author: Sugil Steve Lee
- * Last Updated: 2024-01-11 */
+ * Last Updated: 2024-01-14 */
 
 #include "template_clock.c"
 
