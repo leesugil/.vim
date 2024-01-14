@@ -19,5 +19,5 @@ int main(int argc, char *argv[])
 
 
 	time_measure_end();		/* code end */
-	return 0;
+	exit(0);
 }
