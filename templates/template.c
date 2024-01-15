@@ -2,6 +2,7 @@
  * Author: Sugil Steve Lee
  * Last Updated: 2024-01-14 */
 
+#include <stdlib.h>
 #include "template_clock.c"
 
 
