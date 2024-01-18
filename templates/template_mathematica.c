@@ -27,7 +27,8 @@ int main(int argc, char *argv[])
 
 
 	double answer = 0;
-	printf("\nAnswer: %g\n", answer);
+	char *unit = "";
+	printf("\nAnswer: %.3g %s\n", answer, unit);
 
 
 
