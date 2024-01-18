@@ -10,6 +10,8 @@
 #include <stdlib.h>
 #include "template_clock.c"
 
+#include <math.h>
+#include <complex.h>
 #include "../../common/constants.h"
 
 int main(int argc, char *argv[])
