@@ -12,7 +12,7 @@
 
 #include <math.h>
 #include <complex.h>
-#include "../../common/constants.h"
+#include "../../common/formulae.h"
 
 int main(int argc, char *argv[])
 {
