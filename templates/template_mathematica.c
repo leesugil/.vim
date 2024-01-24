@@ -4,11 +4,11 @@
  *
  * This is for the use in sugilmath/mathematica
  *
- * Last Updated: 2024-01-18
+ * Last Updated: 2024-01-24
  * *************************** */
 
 #include <stdlib.h>
-#include "template_clock.c"
+#include "qol/c/clock.h"
 
 #include <math.h>
 #include <complex.h>
