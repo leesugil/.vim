@@ -1,9 +1,9 @@
 /* C template
  * Author: Sugil Steve Lee
- * Last Updated: 2024-01-14 */
+ * Last Updated: 2024-01-24 */
 
 #include <stdlib.h>
-#include "template_clock.c"
+#include "qol/c/clock.h"
 
 
 
