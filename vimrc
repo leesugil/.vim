@@ -41,3 +41,8 @@ augroup XMLFileCreation
 	autocmd!
 	autocmd BufNewFile *.xml 0r ~/.vim/templates/template.xml
 augroup END
+
+augroup XSDFileCreation
+	autocmd!
+	autocmd BufNewFile *.xsd 0r ~/.vim/templates/template.xsd
+augroup END
