@@ -34,7 +34,12 @@ inoremap <Down> <C-o>gj
 augroup CFileCreation
 	autocmd!
 	" Define an autocmd to load the template (:help skeleton)
-	autocmd BufNewFile *.c 0r ~/.vim/templates/template_mathematica.c
+	autocmd BufNewFile *.c 0r ~/.vim/templates/template.c
+augroup END
+
+augroup CFileCreation
+	autocmd!
+	autocmd BufNewFile *.cpp 0r ~/.vim/templates/template.cpp
 augroup END
 
 augroup XMLFileCreation
