@@ -11,6 +11,8 @@ set formatoptions=r,o
 set wrap
 set linebreak
 set textwidth=0
+set expandtab
+set softtabstop=4
 
 noremap y "*y
 noremap yy "*yy
