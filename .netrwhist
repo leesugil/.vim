@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/Users/sugil/Projects/leesugil.github.io/docs/_site'
+let g:netrw_dirhist_5='/Users/sugil/Projects/leesugil.github.io/docs/_posts'
+let g:netrw_dirhist_4='/Users/sugil/.vim/templates'
+let g:netrw_dirhist_3='/Users/sugil/Projects/c'
+let g:netrw_dirhist_2='/Users/sugil/Projects/c/tmp'
+let g:netrw_dirhist_1='/Users/sugil/.vim/.git/info'
