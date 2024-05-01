@@ -21,4 +21,4 @@ inoremap <Up> <C-o>gk
 inoremap <Down> <C-o>gj
 
 " Define an autocmd to load the template (:help skeleton)
-autocmd BufNewFile *.c 0r ~/.vim/templates/template.c
+"autocmd BufNewFile *.c 0r ~/.vim/templates/template.c
